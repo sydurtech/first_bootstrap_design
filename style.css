@@ -1,0 +1,161 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	list-style: none;
+}
+h2{
+	font-size: 18px;
+}
+
+/*custom fonts*/
+@font-face {
+ font-family: pacifico;
+ src: url("Pacifico.eot") /* EOT file for IE */
+}
+@font-face {
+ font-family: pacifico;
+ src: url("Pacifico.ttf") /* TTF file for CSS3 browsers */
+}
+
+@font-face {
+ font-family: bebas;
+ src: url("bebas.eot") /* EOT file for IE */
+}
+@font-face {
+ font-family: bebas;
+ src: url("bebas.TTF") /* TTF file for CSS3 browsers */
+}
+/*end custom fonts*/
+h1, h2, h3, h4, h5, h6{
+	font-family: bebas;
+}
+.logo a{
+	color: #474747;
+	text-decoration: none;
+	font-family: pacifico;
+	font-size: 32px;
+
+}
+.mainmenu{}
+.mainmenu ul{
+	list-style: none;
+	text-align: right;
+	margin-top: 10px;
+	margin-bottom: 0px;
+
+}
+.mainmenu ul li{
+	display: inline-block;
+	box-sizing: border-box;
+	font-family: bebas;
+
+}
+.mainmenu ul li a{
+	padding: 20px;
+	text-transform: uppercase;
+	color: #B4B4B4;
+}
+.mainmenu ul li a:hover{
+	text-decoration: none;
+}
+.mainmenu ul li a span{
+	display: block;
+	color: #464646;
+}
+.sdrpos{
+	position: relative;
+}
+.slidertext{
+	background: #404040;
+	text-transform: uppercase;
+	position: absolute;
+	left: 15px;
+	bottom: 20px;
+	border-radius: 2px;
+}
+.slidertext h4{
+	font-size: 16px;
+	color: #696969;
+	margin-bottom: 0px;
+
+}
+.slidertext h2{
+	font-size: 28px;
+	color: white;
+	margin-top: 0px;
+
+	/*margin: 0px;*/
+}
+.sliderText{
+	background: #F6F6F6;
+	margin-top: 0px;
+	
+}
+.sliderText h2{
+	text-transform: uppercase;
+}
+.sliderText p{
+	text-align: justify;
+}
+.contHeader{
+	text-align: center;
+	background: #ededed;
+	text-transform: uppercase;
+	margin: 20px;
+}
+.fcontent{
+	margin-top: 20px;
+}
+.promo img{
+	width: 40px;
+	height: 40px;
+	/*padding-top: 20px;*/
+}
+.promoheading{
+	text-transform: uppercase;
+}
+.promoheading h2{
+	padding-bottom: 10px;
+	margin-top: 0px;
+}
+
+.promoCont{
+	text-align: justify;
+
+}
+.readmore{
+	text-transform: uppercase;
+	margin-top: 10px;
+	font-family: bebas;
+}
+
+.sheader{
+	text-transform: uppercase;
+
+}
+.scontent{
+	text-align: justify;
+}
+.{}
+.img-responsive{
+	width: 100%;
+}
+.{}
+.{}
+.footer-bg{
+	background: #F7F7F7;
+	margin-top: 20px;
+	
+}
+.ft-left{
+	text-transform: uppercase;
+	padding: 20px 10px;
+}
+.ft-right{
+	text-transform: uppercase;
+	text-align: right;
+	padding: 20px 10px;
+}
+.{}
